@@ -1,0 +1,1020 @@
+$mainFont: 'Bree Serif',
+serif;
+$main-color: rgb(212, 13, 66);
+$whiteColor: white;
+
+
+
+html,
+body {
+    margin: 0;
+
+
+}
+
+
+
+
+/* start nav */
+.my-nav {
+    color: $main-color;
+    font-size: 22px;
+    font-family: $mainFont;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+
+    .navbar-brand {
+        color: $main-color;
+        font-family: $mainFont;
+    }
+}
+
+/* end nav */
+
+
+/* start header */
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+    
+
+    .webDeveloper {
+
+        .web {
+
+            color: rgb(233, 232, 238);
+            font-family: $mainFont;
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+            letter-spacing: 5px;
+
+            animation-name: ss4;
+            animation-duration: 3s;
+            animation-fill-mode: both;
+            position: relative;
+            left: 0;
+        }
+
+        .i-am {
+            color: rgb(184, 179, 179);
+            font-family: $mainFont;
+            font-size: 13px;
+            display: flex;
+            justify-content: center;
+            letter-spacing: 1px;
+
+            animation-name: ss2;
+            animation-duration: 4s;
+            animation-fill-mode: both;
+            position: relative;
+            left: 0;
+
+            .bracket1 {
+
+                animation-name: ss;
+                animation-duration: 4s;
+                animation-fill-mode: both;
+                position: relative;
+                left: 0;
+            }
+
+            .bracket3 {
+
+                animation-name: ss3;
+                animation-duration: 4s;
+                animation-fill-mode: both;
+                position: relative;
+                right: 1px;
+            }
+        }
+    }
+
+
+    .divbottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 40vh;
+        margin-right: 3vw;
+
+
+
+        .bottom {
+            background-color: rgba(219, 39, 66, 0.7);
+            border-radius: 4px;
+            font-family: $mainFont;
+            border: none;
+            color: white;
+            padding: 1rem 4rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 22px;
+            cursor: pointer;
+            transition: 0.4s;
+
+        }
+
+        .bottom:hover {
+            color: black;
+        }
+    }
+
+
+}
+
+/* end header */
+
+
+
+
+
+
+
+/* start skills */
+
+.content {
+
+    flex-direction: column;
+    font-family: $mainFont;
+    letter-spacing: 4px;
+
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 10vh;
+        color: $whiteColor;
+
+    }
+
+    .skills {
+        width: 50vw;
+        color: $whiteColor;
+
+
+
+        #skill {
+            list-style: none;
+            padding-top: 10vh;
+            padding-left: 2vw;
+            width: 100%;
+        }
+
+        #skill li {
+            margin-bottom: 70px;
+            height: 39px;
+            border-radius: 3px;
+
+        }
+
+        #skill li em {
+            position: relative;
+            top: -30px;
+        }
+
+        .expand {
+            height: 33px;
+            margin: 2px 0;
+            background: rgb(197, 197, 197);
+            position: absolute;
+            box-shadow: 0px 0px 20px 5px rgba(80, 78, 78, 0.4);
+        }
+
+        .html5 {
+            width: 55%;
+            -moz-animation: html5 2s ease-out;
+            -webkit-animation: html5 2s ease-out;
+        }
+
+        .css3 {
+            width: 46%;
+            -moz-animation: css3 2s ease-out;
+            -webkit-animation: css3 2s ease-out;
+        }
+
+        .javascript {
+            width: 30%;
+            -moz-animation: javascript 2s ease-out;
+            -webkit-animation: javascript 2s ease-out;
+        }
+
+        .photoshop {
+            width: 40%;
+            -moz-animation: photoshop 2s ease-out;
+            -webkit-animation: photoshop 2s ease-out;
+        }
+
+        .illustrator {
+            width: 10%;
+            -moz-animation: illustrator 2s ease-out;
+            -webkit-animation: illustrator 2s ease-out;
+        }
+
+        @-moz-keyframes html5 {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 10%;
+            }
+
+            ;
+        }
+
+        @-moz-keyframes css3 {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 46%;
+            }
+
+            ;
+        }
+
+        @-moz-keyframes javascript {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 30%;
+            }
+
+            ;
+        }
+
+        @-moz-keyframes photoshop {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 40%;
+            }
+
+            ;
+        }
+
+        @-moz-keyframes illustrator {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 30%;
+            }
+
+            ;
+        }
+
+        @-webkit-keyframes html5 {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 55%;
+            }
+
+            ;
+        }
+
+        @-webkit-keyframes css3 {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 46%;
+            }
+
+            ;
+        }
+
+        @-webkit-keyframes javascript {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 30%;
+            }
+
+            ;
+        }
+
+        @-webkit-keyframes photoshop {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 40%;
+            }
+
+            ;
+        }
+
+        @-webkit-keyframes illustrator {
+            0% {
+                width: 0px;
+            }
+
+            100% {
+                width: 10%;
+            }
+
+            ;
+        }
+    }
+}
+
+/* end skills */
+
+
+
+/* start about me */
+
+.about111 {
+    background-image: linear-gradient(to right top, #272929, #1f2021, #181819, #0f0e0f, #000000);
+    height: 100%;
+}
+
+.about-me1 {
+
+    overflow: hidden;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    height: 25rem;
+    letter-spacing: 3px;
+    color: $whiteColor;
+    font-family: $mainFont;
+    text-align: center;
+
+
+    .container1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+
+
+        .image2 {
+
+            padding-top: 70px;
+
+            .img2 {
+                border-radius: 10px;
+                width: 15rem;
+                height: 18rem;
+            }
+        }
+
+        .info1 {
+            width: 60%;
+            padding-top: 80px;
+
+            h2 {
+                padding-bottom: 30px;
+            }
+
+            p {
+                line-height: 1.9;
+            }
+        }
+
+    }
+}
+
+
+/* end about me */
+
+
+
+
+/* start footer */
+
+.footer {
+    background-color: rgba(192, 14, 61, 0.8);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   margin-bottom: 1.5rem;
+    
+
+
+    i {
+
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+        padding: 20px;
+        transition: 0.5s;
+    }
+}
+
+
+
+footer,
+i:hover {
+    background-color: white;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+/* start contact */
+
+.hero2 {
+    background-image: linear-gradient(to right top, #272929, #1f2021, #181819, #0f0e0f, #000000);
+    height: 100vh;
+    margin-bottom: 0;
+
+.contact-me1 {
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+    display: flex;
+    color: $whiteColor;
+    justify-content: center;
+    font-family: $mainFont;
+    letter-spacing: 5px;
+ 
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+#contact {
+    padding: 10px 0 10px;
+}
+
+.contact-text {
+    margin: 45px auto;
+}
+
+.mail-message-area {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.mail-message {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message {
+    height: 0px;
+    opacity: 0;
+}
+
+.visible-message {
+    height: auto;
+    opacity: 1;
+    margin: 25px auto 0;
+}
+
+/* Input Styles */
+
+.form {
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom: 25px;
+    color: #727272 !important;
+    font-size: 13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:hover {
+    border: 1px solid #8BC3A3;
+}
+
+.form:focus {
+    color: white;
+    outline: none;
+    border: 1px solid #8BC3A3;
+}
+
+.textarea {
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button {
+    padding: 8px 12px;
+    background: #0A5175;
+    display: block;
+    width: 120px;
+    margin: 10px 0 0px 0;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    
+}
+
+.button:hover {
+    background: #8BC3A3;
+    color: white;
+}
+
+/* Send Button Styles */
+
+.inner {
+    margin-top: 1rem;
+
+}
+
+.form-btn {
+    width: 180px;
+    display: block;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    background: $main-color;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+   
+  
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.form-btn:hover {
+    background: #111;
+    color: white;
+    border: none;
+}
+
+.form-btn:active {
+    opacity: 0.9;
+}
+
+.relative {
+   
+}
+
+center {
+    margin-top: 330px;
+}
+
+input {
+    position: relative;
+    z-index: 9999;
+}
+
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    color: $whiteColor;
+    font-family: $mainFont;
+    letter-spacing: 5px;
+    margin-top: 40rem;
+    text-align: center;
+
+        h4{
+            font-size: 19px;
+        }
+
+        p{
+            font-size: 17px;
+        }
+
+}
+
+
+
+
+.footer1 {
+    background-color: rgba(192, 14, 61, 0.8);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 15vh;
+    
+
+
+    i {
+
+        color: black;
+        font-size: 40px;
+        text-decoration: none;
+        padding: 20px;
+        transition: 0.5s;
+    }
+}
+
+
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start keyframes */
+
+@keyframes ss4 {
+    from {
+        transform: translatey(-400px)
+    }
+
+    to {
+        transform: translateX(0px)
+    }
+}
+
+@keyframes ss {
+    from {
+        transform: translateX(-500px)
+    }
+
+    to {
+        transform: translateX(0px)
+    }
+}
+
+@keyframes ss3 {
+    from {
+        transform: translateX(500px)
+    }
+
+    to {
+        transform: translateX(1px)
+    }
+}
+
+@keyframes ss2 {
+    from {
+        transform: translatey(500px)
+    }
+
+    to {
+        transform: translateX(1px)
+    }
+}
+
+/* end keyframes */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+
+    .hero {
+
+        .divbottom {
+            display: flex;
+            justify-content: center;
+            margin-top: 50vh;
+            margin-right: 0vw;
+
+            .bottom {
+                padding: 0.5rem 2rem;
+            }
+        }
+    }
+
+
+
+
+    .about-me1 {
+        overflow: visible;
+        margin-top: 5rem;
+        height: 80rem;
+        letter-spacing: 3px;
+        font-family: $mainFont;
+
+
+
+
+        .container1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .image2 {
+                display: flex;
+                align-self: center;
+
+
+                .img2 {
+                    width: 13rem;
+                    height: 15rem;
+                }
+            }
+
+            .info1 {
+
+                padding-top: 80px;
+            }
+
+        }
+    }
+
+    .contact-me1 {
+        display: flex;
+        justify-content: center;
+        font-family: $main-color;
+        letter-spacing: 5px;
+        font-size: 1px;
+    }
+
+    .footer {
+        i {
+
+            font-size: 20px;
+
+        }
+    }
+
+    .hero2 { 
+
+        .contact-me1{ 
+        h2{
+            font-size: 18px;
+        }
+     }
+
+    .footer1 {
+        i {
+
+            font-size: 20px;
+
+        }
+    }    
+ }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+    .hero {
+
+
+        .info {
+            float: right;
+            width: 60%;
+            text-align: center;
+
+            h2 {
+                font-size: 1.5rem;
+                padding-left: 20px;
+                padding-top: 55px;
+            }
+
+            p {
+                font-size: 10px;
+                padding-left: 14px;
+            }
+        }
+
+
+        .divbottom {
+            display: flex;
+            justify-content: center;
+            margin-top: 50vh;
+            margin-right: 0vw;
+
+            .bottom {
+                padding: 0.5rem 2rem;
+            }
+        }
+
+    }
+
+    .about-me1 {
+
+        overflow: visible;
+        margin-top: 5rem;
+        height: 65rem;
+        letter-spacing: 3px;
+        font-family: $mainFont;
+
+
+
+
+
+        .container1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .image2 {
+                display: flex;
+                align-self: center;
+
+
+                .img2 {
+                    width: 15rem;
+                    height: 18rem;
+                }
+            }
+
+            .info1 {
+
+                padding-top: 80px;
+            }
+
+        }
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+
+        .webDeveloper {
+            .web {
+                font-size: 4rem;
+                letter-spacing: 6px;
+
+            }
+
+            .i-am {
+                font-size: 20px;
+                letter-spacing: 8px;
+
+            }
+        }
+
+        .divbottom {
+            display: flex;
+            justify-content: center;
+            margin-top: 40vh;
+            margin-right: 0vw;
+
+            .bottom {
+                padding: 0.5rem 2.5rem;
+            }
+        }
+
+
+    }
+
+
+    .about-me1 {
+
+        overflow: visible;
+        margin-top: 5rem;
+        height: 30rem;
+        letter-spacing: 3px;
+        font-family: $mainFont;
+
+
+
+
+
+        .container1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            .image2 {
+                display: flex;
+                align-self: center;
+                padding-top: 70px;
+
+
+                .img2 {
+                    width: 15rem;
+                    height: 18rem;
+                }
+            }
+
+            .info1 {
+
+                padding-top: 80px;
+            }
+
+        }
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1025px) {
+
+    .hero {
+        .webDeveloper {
+            .web {
+                font-size: 4rem;
+                letter-spacing: 6px;
+
+            }
+
+            .i-am {
+                font-size: 22px;
+                letter-spacing: 8px;
+
+            }
+
+
+            .divbottom {
+                display: flex;
+                justify-content: center;
+                margin-top: 10vh;
+                margin-right: 0vw;
+
+                .bottom {
+                    padding: 1rem 3rem;
+                }
+            }
+
+        }
+
+    }
+
+}
